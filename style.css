@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: Quicksand;
+}
+body{
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.imgwrapper img{
+    max-width: 500px;
+
+}
+.glasscontainer{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: block;
+    max-width: 72vw;
+    background: rgba(0, 0, 0, 0.56);
+    border-radius: 15px;
+    padding: 50px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1) ;
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navlogo{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600px;
+    margin-top: -10px;
+}
+.navlinks{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    float: right;
+}
+.navlink{
+    display: inline-block;
+    margin-left: 35px;
+    font-weight: 300px;
+    width: 100%;
+    border-radius: 15px;
+    border: solid 1px #ffff;
+    padding: 5px;
+    
+
+}
+.contents{
+    display: flex;
+    align-content: row;
+}
+.main{
+    margin-top: 50px;
+    display: inline-block;
+    padding: 20px;
+}
+.main h2{
+    font-size: 1.7em;
+
+}
+p{
+    font-size: 1.2em;
+    line-height: 25px;
+}
+.main button{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    color: white;
+    font-size: 1.3em;
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid #ffff;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+button:hover{
+    border-color: #2668db;
+    background-color:#2668db ;
+}
+.imgwrapper{
+    display: flex;
+    position: relative;
+    margin-top: 5vh;
+}
+.navlink:hover{
+border-color: #2668db;
+background-color: #2668db;
+
+}
+.navlink:hover{
+    transition: 0.3s;
+
+}
